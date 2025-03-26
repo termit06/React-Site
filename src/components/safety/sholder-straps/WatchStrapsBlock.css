@@ -1,0 +1,824 @@
+.private {
+    width: 240px;
+    height: 540px;
+    border: 2px solid green;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+    background-color: #425400;
+}
+
+.line-none {
+    display: none;
+}
+
+/* ефрейтор */
+.corporal {
+    width: 100%;
+    background-color: yellow;
+    height: 35px;
+    margin-top: 350px;
+}
+
+/* младший сержант */
+.sergeant-junior-top {
+    width: 100%;
+    background-color: yellow;
+    height: 35px;
+    margin-top: 325px;
+}
+
+.sergeant-junior-bottom {
+    width: 100%;
+    background-color: yellow;
+    height: 35px;
+    margin-top: 25px;
+}
+
+/* сержант */
+.sergeant-top {
+    width: 100%;
+    background-color: yellow;
+    height: 35px;
+    margin-top: 280px;
+}
+
+.sergeant-center {
+    width: 100%;
+    background-color: yellow;
+    height: 35px;
+    margin-top: 25px;
+}
+
+.sergeant-bottom {
+    width: 100%;
+    background-color: yellow;
+    height: 35px;
+    margin-top: 25px;
+}
+
+/* старший сержант */
+.senior-sergeant {
+    width: 100%;
+    background-color: yellow;
+    height: 100px;
+    margin-top: 300px;
+}
+
+/* старшина */
+.petty-officer-top {
+    width: 100%;
+    background-color: yellow;
+    height: 100px;
+    margin-top: 270px;
+}
+
+.petty-officer-bottom {
+    width: 100%;
+    background-color: yellow;
+    height: 35px;
+    margin-top: 25px;
+}
+
+/* прапорщик */
+.ensign-top {
+    display: inline-block;
+    vertical-align: top;
+    width: 45px;
+    height: 45px;
+    background: yellow;
+    border: 1px solid grey;
+    position: relative;
+    margin-top: 175px;
+    margin-left: 99.3px;
+}
+
+.ensign-top:before {
+    content: "";
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    bottom: 1px;
+    right: 1px;
+    z-index: 1;
+}
+
+.ensign-top,
+.ensign-top:before {
+    -webkit-clip-path: polygon(50% 0%, 66% 27%, 98% 35%, 76% 57%, 79% 91%, 50% 78%, 21% 91%, 24% 57%, 2% 35%, 32% 27%);
+    clip-path: polygon(50% 0%, 66% 27%, 98% 35%, 76% 57%, 79% 91%, 50% 78%, 21% 91%, 24% 57%, 2% 35%, 32% 27%);
+}
+
+.ensign-bottom {
+    display: inline-block;
+    vertical-align: top;
+    width: 45px;
+    height: 45px;
+    background: yellow;
+    border: 1px solid grey;
+    position: relative;
+    margin-top: 125px;
+    margin-left: 99.3px;
+}
+
+.ensign-bottom:before {
+    content: "";
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    bottom: 1px;
+    right: 1px;
+    z-index: 1;
+}
+
+.ensign-bottom,
+.ensign-bottom:before {
+    -webkit-clip-path: polygon(50% 0%, 66% 27%, 98% 35%, 76% 57%, 79% 91%, 50% 78%, 21% 91%, 24% 57%, 2% 35%, 32% 27%);
+    clip-path: polygon(50% 0%, 66% 27%, 98% 35%, 76% 57%, 79% 91%, 50% 78%, 21% 91%, 24% 57%, 2% 35%, 32% 27%);
+}
+
+/* старший прапорщик */
+.senior-ensign-top {
+    display: inline-block;
+    vertical-align: top;
+    width: 45px;
+    height: 45px;
+    background: yellow;
+    border: 1px solid grey;
+    position: relative;
+    margin-top: 140px;
+    margin-left: 99.3px;
+}
+
+.senior-ensign-top:before {
+    content: "";
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    bottom: 1px;
+    right: 1px;
+    z-index: 1;
+}
+
+.senior-ensign-top,
+.senior-ensign-top:before {
+    -webkit-clip-path: polygon(50% 0%, 66% 27%, 98% 35%, 76% 57%, 79% 91%, 50% 78%, 21% 91%, 24% 57%, 2% 35%, 32% 27%);
+    clip-path: polygon(50% 0%, 66% 27%, 98% 35%, 76% 57%, 79% 91%, 50% 78%, 21% 91%, 24% 57%, 2% 35%, 32% 27%);
+}
+
+.senior-ensign-center {
+    display: inline-block;
+    vertical-align: top;
+    width: 45px;
+    height: 45px;
+    background: yellow;
+    border: 1px solid grey;
+    position: relative;
+    margin-top: 80px;
+    margin-left: 99.3px;
+}
+
+.senior-ensign-center:before {
+    content: "";
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    bottom: 1px;
+    right: 1px;
+    z-index: 1;
+}
+
+.senior-ensign-center,
+.senior-ensign-center:before {
+    -webkit-clip-path: polygon(50% 0%, 66% 27%, 98% 35%, 76% 57%, 79% 91%, 50% 78%, 21% 91%, 24% 57%, 2% 35%, 32% 27%);
+    clip-path: polygon(50% 0%, 66% 27%, 98% 35%, 76% 57%, 79% 91%, 50% 78%, 21% 91%, 24% 57%, 2% 35%, 32% 27%);
+}
+
+.senior-ensign-bottom {
+    display: inline-block;
+    vertical-align: top;
+    width: 45px;
+    height: 45px;
+    background: yellow;
+    border: 1px solid grey;
+    position: relative;
+    margin-top: 80px;
+    margin-left: 99.3px;
+}
+
+.senior-ensign-bottom:before {
+    content: "";
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    bottom: 1px;
+    right: 1px;
+    z-index: 1;
+}
+
+.senior-ensign-bottom,
+.senior-ensign-bottom:before {
+    -webkit-clip-path: polygon(50% 0%, 66% 27%, 98% 35%, 76% 57%, 79% 91%, 50% 78%, 21% 91%, 24% 57%, 2% 35%, 32% 27%);
+    clip-path: polygon(50% 0%, 66% 27%, 98% 35%, 76% 57%, 79% 91%, 50% 78%, 21% 91%, 24% 57%, 2% 35%, 32% 27%);
+}
+
+/* ~~~ младшие офицеры ~~~ */
+.junior-officers {
+    height: 537px;
+    width: 20px;
+    background-color: red;
+    position: absolute;
+    top: 0%;
+    left: 110px;
+}
+/* ~~~ end ~ младшие офицеры ~ end ~~~ */
+
+/* младший лейтенант */
+.junior-lieutenant {
+    display: inline-block;
+    vertical-align: top;
+    width: 45px;
+    height: 45px;
+    background: yellow;
+    border: 1px solid grey;
+    position: relative;
+    margin-top: 350px;
+    margin-left: 97.3px;
+}
+
+.junior-lieutenant:before {
+    content: "";
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    bottom: 1px;
+    right: 1px;
+    z-index: 1;
+}
+
+.junior-lieutenant,
+.junior-lieutenant:before {
+    -webkit-clip-path: polygon(50% 0%, 66% 27%, 98% 35%, 76% 57%, 79% 91%, 50% 78%, 21% 91%, 24% 57%, 2% 35%, 32% 27%);
+    clip-path: polygon(50% 0%, 66% 27%, 98% 35%, 76% 57%, 79% 91%, 50% 78%, 21% 91%, 24% 57%, 2% 35%, 32% 27%);
+}
+
+/* лейтенант */
+.lieutenant-left {
+    display: inline-block;
+    vertical-align: top;
+    width: 45px;
+    height: 45px;
+    background: yellow;
+    border: 1px solid grey;
+    position: relative;
+    margin-top: 400px;
+    margin-left: 30.3px;
+}
+
+.lieutenant-left:before {
+    content: "";
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    bottom: 1px;
+    right: 1px;
+    z-index: 1;
+}
+
+.lieutenant-left,
+.lieutenant-left:before {
+    -webkit-clip-path: polygon(50% 0%, 66% 27%, 98% 35%, 76% 57%, 79% 91%, 50% 78%, 21% 91%, 24% 57%, 2% 35%, 32% 27%);
+    clip-path: polygon(50% 0%, 66% 27%, 98% 35%, 76% 57%, 79% 91%, 50% 78%, 21% 91%, 24% 57%, 2% 35%, 32% 27%);
+}
+
+.lieutenant-right {
+    display: inline-block;
+    vertical-align: top;
+    width: 45px;
+    height: 45px;
+    background: yellow;
+    border: 1px solid grey;
+    position: relative;
+    margin-top: 400px;
+    margin-left: 88.3px;
+}
+
+.lieutenant-right:before {
+    content: "";
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    bottom: 1px;
+    right: 1px;
+    z-index: 1;
+}
+
+.lieutenant-right,
+.lieutenant-right:before {
+    -webkit-clip-path: polygon(50% 0%, 66% 27%, 98% 35%, 76% 57%, 79% 91%, 50% 78%, 21% 91%, 24% 57%, 2% 35%, 32% 27%);
+    clip-path: polygon(50% 0%, 66% 27%, 98% 35%, 76% 57%, 79% 91%, 50% 78%, 21% 91%, 24% 57%, 2% 35%, 32% 27%);
+}
+
+/* старший лейтенант */
+.senior-lieutenant {
+    display: inline-block;
+    vertical-align: top;
+    width: 45px;
+    height: 45px;
+    background: yellow;
+    border: 1px solid grey;
+    position: relative;
+    margin-top: 250px;
+    margin-left: 97.3px;
+}
+
+.senior-lieutenant:before {
+    content: "";
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    bottom: 1px;
+    right: 1px;
+    z-index: 1;
+}
+
+.senior-lieutenant,
+.senior-lieutenant:before {
+    -webkit-clip-path: polygon(50% 0%, 66% 27%, 98% 35%, 76% 57%, 79% 91%, 50% 78%, 21% 91%, 24% 57%, 2% 35%, 32% 27%);
+    clip-path: polygon(50% 0%, 66% 27%, 98% 35%, 76% 57%, 79% 91%, 50% 78%, 21% 91%, 24% 57%, 2% 35%, 32% 27%);
+}
+
+.senior-lieutenant-left {
+    display: inline-block;
+    vertical-align: top;
+    width: 45px;
+    height: 45px;
+    background: yellow;
+    border: 1px solid grey;
+    position: relative;
+    margin-top: 400px;
+    margin-left: 23.3px;
+}
+
+.senior-lieutenant-left:before {
+    content: "";
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    bottom: 1px;
+    right: 1px;
+    z-index: 1;
+}
+
+.senior-lieutenant-left,
+.senior-lieutenant-left:before {
+    -webkit-clip-path: polygon(50% 0%, 66% 27%, 98% 35%, 76% 57%, 79% 91%, 50% 78%, 21% 91%, 24% 57%, 2% 35%, 32% 27%);
+    clip-path: polygon(50% 0%, 66% 27%, 98% 35%, 76% 57%, 79% 91%, 50% 78%, 21% 91%, 24% 57%, 2% 35%, 32% 27%);
+}
+
+.senior-lieutenant-right {
+    display: inline-block;
+    vertical-align: top;
+    width: 45px;
+    height: 45px;
+    background: yellow;
+    border: 1px solid grey;
+    position: relative;
+    margin-top: -43px;
+    margin-left: 30.3px;
+}
+
+.senior-lieutenant-right:before {
+    content: "";
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    bottom: 1px;
+    right: 1px;
+    z-index: 1;
+}
+
+.senior-lieutenant-right,
+.senior-lieutenant-right:before {
+    -webkit-clip-path: polygon(50% 0%, 66% 27%, 98% 35%, 76% 57%, 79% 91%, 50% 78%, 21% 91%, 24% 57%, 2% 35%, 32% 27%);
+    clip-path: polygon(50% 0%, 66% 27%, 98% 35%, 76% 57%, 79% 91%, 50% 78%, 21% 91%, 24% 57%, 2% 35%, 32% 27%);
+}
+
+/* капитан */
+.captain {
+    display: inline-block;
+    vertical-align: top;
+    width: 45px;
+    height: 45px;
+    background: yellow;
+    border: 1px solid grey;
+    position: relative;
+    margin-top: 200px;
+    margin-left: 97.3px;
+}
+
+.captain:before {
+    content: "";
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    bottom: 1px;
+    right: 1px;
+    z-index: 1;
+}
+
+.captain,
+.captain:before {
+    -webkit-clip-path: polygon(50% 0%, 66% 27%, 98% 35%, 76% 57%, 79% 91%, 50% 78%, 21% 91%, 24% 57%, 2% 35%, 32% 27%);
+    clip-path: polygon(50% 0%, 66% 27%, 98% 35%, 76% 57%, 79% 91%, 50% 78%, 21% 91%, 24% 57%, 2% 35%, 32% 27%);
+}
+
+.captain-center {
+    display: inline-block;
+    vertical-align: top;
+    width: 45px;
+    height: 45px;
+    background: yellow;
+    border: 1px solid grey;
+    position: relative;
+    margin-top: 295px;
+    margin-left: -45.7px;
+}
+
+.captain-center:before {
+    content: "";
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    bottom: 1px;
+    right: 1px;
+    z-index: 1;
+}
+
+.captain-center,
+.captain-center:before {
+    -webkit-clip-path: polygon(50% 0%, 66% 27%, 98% 35%, 76% 57%, 79% 91%, 50% 78%, 21% 91%, 24% 57%, 2% 35%, 32% 27%);
+    clip-path: polygon(50% 0%, 66% 27%, 98% 35%, 76% 57%, 79% 91%, 50% 78%, 21% 91%, 24% 57%, 2% 35%, 32% 27%);
+}
+
+.captain-left {
+    display: inline-block;
+    vertical-align: top;
+    width: 45px;
+    height: 45px;
+    background: yellow;
+    border: 1px solid grey;
+    position: relative;
+    margin-top: 405px;
+    margin-left: 22.3px;
+}
+
+.captain-left:before {
+    content: "";
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    bottom: 1px;
+    right: 1px;
+    z-index: 1;
+}
+
+.captain-left,
+.captain-left:before {
+    -webkit-clip-path: polygon(50% 0%, 66% 27%, 98% 35%, 76% 57%, 79% 91%, 50% 78%, 21% 91%, 24% 57%, 2% 35%, 32% 27%);
+    clip-path: polygon(50% 0%, 66% 27%, 98% 35%, 76% 57%, 79% 91%, 50% 78%, 21% 91%, 24% 57%, 2% 35%, 32% 27%);
+}
+
+.captain-right {
+    display: inline-block;
+    vertical-align: top;
+    width: 45px;
+    height: 45px;
+    background: yellow;
+    border: 1px solid grey;
+    position: relative;
+    margin-top: -43px;
+    margin-left: 31.3px;
+}
+
+.captain-right:before {
+    content: "";
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    bottom: 1px;
+    right: 1px;
+    z-index: 1;
+}
+
+.captain-right,
+.captain-right:before {
+    -webkit-clip-path: polygon(50% 0%, 66% 27%, 98% 35%, 76% 57%, 79% 91%, 50% 78%, 21% 91%, 24% 57%, 2% 35%, 32% 27%);
+    clip-path: polygon(50% 0%, 66% 27%, 98% 35%, 76% 57%, 79% 91%, 50% 78%, 21% 91%, 24% 57%, 2% 35%, 32% 27%);
+}
+
+/* ~~~ офицеры ~~~ */
+.officers {
+    height: 537px;
+    width: 20px;
+    background-color: red;
+    position: absolute;
+    top: 0%;
+    left: 63px;
+}
+
+.officers-two {
+    height: 537px;
+    width: 20px;
+    background-color: red;
+    position: absolute;
+    top: 0%;
+    left: 154px;
+}
+/* ~~~ end ~ офицеры ~ end ~~~ */
+
+/* майор */
+.major {
+    display: inline-block;
+    vertical-align: top;
+    width: 60px;
+    height: 60px;
+    background: yellow;
+    border: 1px solid grey;
+    position: relative;
+    margin-top: 350px;
+    margin-left: 88.3px;
+}
+
+.major:before {
+    content: "";
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    bottom: 1px;
+    right: 1px;
+    z-index: 1;
+}
+
+.major,
+.major:before {
+    -webkit-clip-path: polygon(50% 0%, 66% 27%, 98% 35%, 76% 57%, 79% 91%, 50% 78%, 21% 91%, 24% 57%, 2% 35%, 32% 27%);
+    clip-path: polygon(50% 0%, 66% 27%, 98% 35%, 76% 57%, 79% 91%, 50% 78%, 21% 91%, 24% 57%, 2% 35%, 32% 27%);
+}
+
+/* подполковник */
+.lieutenant-colonel-left {
+    display: inline-block;
+    vertical-align: top;
+    width: 60px;
+    height: 60px;
+    background: yellow;
+    border: 1px solid grey;
+    position: relative;
+    margin-top: 385px;
+    margin-left: 42.3px;
+}
+
+.lieutenant-colonel-left:before {
+    content: "";
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    bottom: 1px;
+    right: 1px;
+    z-index: 1;
+}
+
+.lieutenant-colonel-left,
+.lieutenant-colonel-left:before {
+    -webkit-clip-path: polygon(50% 0%, 66% 27%, 98% 35%, 76% 57%, 79% 91%, 50% 78%, 21% 91%, 24% 57%, 2% 35%, 32% 27%);
+    clip-path: polygon(50% 0%, 66% 27%, 98% 35%, 76% 57%, 79% 91%, 50% 78%, 21% 91%, 24% 57%, 2% 35%, 32% 27%);
+}
+
+.lieutenant-colonel-right {
+    display: inline-block;
+    vertical-align: top;
+    width: 60px;
+    height: 60px;
+    background: yellow;
+    border: 1px solid grey;
+    position: relative;
+    margin-top: 385px;
+    margin-left: 32.3px;
+}
+
+.lieutenant-colonel-right:before {
+    content: "";
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    bottom: 1px;
+    right: 1px;
+    z-index: 1;
+}
+
+.lieutenant-colonel-right,
+.lieutenant-colonel-right:before {
+    -webkit-clip-path: polygon(50% 0%, 66% 27%, 98% 35%, 76% 57%, 79% 91%, 50% 78%, 21% 91%, 24% 57%, 2% 35%, 32% 27%);
+    clip-path: polygon(50% 0%, 66% 27%, 98% 35%, 76% 57%, 79% 91%, 50% 78%, 21% 91%, 24% 57%, 2% 35%, 32% 27%);
+}
+
+/* полковник */
+.colonel {
+    display: inline-block;
+    vertical-align: top;
+    width: 60px;
+    height: 60px;
+    background: yellow;
+    border: 1px solid grey;
+    position: relative;
+    margin-top: 280px;
+    margin-left: 87.7px;
+}
+
+.colonel:before {
+    content: "";
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    bottom: 1px;
+    right: 1px;
+    z-index: 1;
+}
+
+.colonel,
+.colonel:before {
+    -webkit-clip-path: polygon(50% 0%, 66% 27%, 98% 35%, 76% 57%, 79% 91%, 50% 78%, 21% 91%, 24% 57%, 2% 35%, 32% 27%);
+    clip-path: polygon(50% 0%, 66% 27%, 98% 35%, 76% 57%, 79% 91%, 50% 78%, 21% 91%, 24% 57%, 2% 35%, 32% 27%);
+}
+
+.colonel-left {
+    display: inline-block;
+    vertical-align: top;
+    width: 60px;
+    height: 60px;
+    background: yellow;
+    border: 1px solid grey;
+    position: relative;
+    margin-top: 40px;
+    margin-left: 42.3px;
+}
+
+.colonel-left:before {
+    content: "";
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    bottom: 1px;
+    right: 1px;
+    z-index: 1;
+}
+
+.colonel-left,
+.colonel-left:before {
+    -webkit-clip-path: polygon(50% 0%, 66% 27%, 98% 35%, 76% 57%, 79% 91%, 50% 78%, 21% 91%, 24% 57%, 2% 35%, 32% 27%);
+    clip-path: polygon(50% 0%, 66% 27%, 98% 35%, 76% 57%, 79% 91%, 50% 78%, 21% 91%, 24% 57%, 2% 35%, 32% 27%);
+}
+
+.colonel-right {
+    display: inline-block;
+    vertical-align: top;
+    width: 60px;
+    height: 60px;
+    background: yellow;
+    border: 1px solid grey;
+    position: relative;
+    margin-top: 40px;
+    margin-left: 32.3px;
+}
+
+.colonel-right:before {
+    content: "";
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    bottom: 1px;
+    right: 1px;
+    z-index: 1;
+}
+
+.colonel-right,
+.colonel-right:before {
+    -webkit-clip-path: polygon(50% 0%, 66% 27%, 98% 35%, 76% 57%, 79% 91%, 50% 78%, 21% 91%, 24% 57%, 2% 35%, 32% 27%);
+    clip-path: polygon(50% 0%, 66% 27%, 98% 35%, 76% 57%, 79% 91%, 50% 78%, 21% 91%, 24% 57%, 2% 35%, 32% 27%);
+}
+
+/* генерал-майор */
+.general-major {
+    display: inline-block;
+    vertical-align: top;
+    width: 85px;
+    height: 85px;
+    background: yellow;
+    border: 1px solid grey;
+    position: relative;
+    margin-top: 270px;
+    margin-left: 80px;
+}
+
+.general-major:before {
+    content: "";
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    bottom: 1px;
+    right: 1px;
+    z-index: 1;
+}
+
+.general-major,
+.general-major:before {
+    -webkit-clip-path: polygon(50% 0%, 66% 27%, 98% 35%, 76% 57%, 79% 91%, 50% 78%, 21% 91%, 24% 57%, 2% 35%, 32% 27%);
+    clip-path: polygon(50% 0%, 66% 27%, 98% 35%, 76% 57%, 79% 91%, 50% 78%, 21% 91%, 24% 57%, 2% 35%, 32% 27%);
+}
+
+/* генерал-лейтенант */
+.general-lieutenant {
+    display: inline-block;
+    vertical-align: top;
+    width: 85px;
+    height: 85px;
+    background: yellow;
+    border: 1px solid grey;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+.general-lieutenant:before {
+    content: "";
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    bottom: 1px;
+    right: 1px;
+    z-index: 1;
+}
+
+.general-lieutenant,
+.general-lieutenant:before {
+    -webkit-clip-path: polygon(50% 0%, 66% 27%, 98% 35%, 76% 57%, 79% 91%, 50% 78%, 21% 91%, 24% 57%, 2% 35%, 32% 27%);
+    clip-path: polygon(50% 0%, 66% 27%, 98% 35%, 76% 57%, 79% 91%, 50% 78%, 21% 91%, 24% 57%, 2% 35%, 32% 27%);
+}
+
+/* генерал-полковник */
+.general-colonel {
+    display: inline-block;
+    vertical-align: top;
+    width: 85px;
+    height: 85px;
+    background: yellow;
+    border: 1px solid grey;
+    position: relative;
+    margin-top: -295px;
+    margin-left: 80px;
+}
+
+.general-colonel:before {
+    content: "";
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    bottom: 1px;
+    right: 1px;
+    z-index: 1;
+}
+
+.general-colonel,
+.general-colonel:before {
+    -webkit-clip-path: polygon(50% 0%, 66% 27%, 98% 35%, 76% 57%, 79% 91%, 50% 78%, 21% 91%, 24% 57%, 2% 35%, 32% 27%);
+    clip-path: polygon(50% 0%, 66% 27%, 98% 35%, 76% 57%, 79% 91%, 50% 78%, 21% 91%, 24% 57%, 2% 35%, 32% 27%);
+}
+
+/* генерал-армии */
+.general-army {
+    display: inline-block;
+    vertical-align: top;
+    width: 85px;
+    height: 85px;
+    background: yellow;
+    border: 1px solid grey;
+    position: relative;
+    margin-top: -420px;
+    margin-left: 80px;
+}
+
+.general-army:before {
+    content: "";
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    bottom: 1px;
+    right: 1px;
+    z-index: 1;
+}
+
+.general-army,
+.general-army:before {
+    -webkit-clip-path: polygon(50% 0%, 66% 27%, 98% 35%, 76% 57%, 79% 91%, 50% 78%, 21% 91%, 24% 57%, 2% 35%, 32% 27%);
+    clip-path: polygon(50% 0%, 66% 27%, 98% 35%, 76% 57%, 79% 91%, 50% 78%, 21% 91%, 24% 57%, 2% 35%, 32% 27%);
+}
