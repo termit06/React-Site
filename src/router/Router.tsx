@@ -1,6 +1,5 @@
 import { Route, Routes } from 'react-router-dom'
 import MainPage from '../pages/MainPage';
-import Bee from '../pages/Bee';
 import Mathematics from '../pages/Mathematics';
 import Safety from '../pages/Safety';
 import Guides from '../pages/Guides';
@@ -12,7 +11,6 @@ const Router = () => {
   return (
     <Routes>
       <Route path="/" index element={<MainPage />} />
-      <Route path='/bee' element={<Bee />} />
       <Route path="/mathematics" element={<Mathematics />} />
       <Route path="/safety" element={<Safety />} />
       <Route path="/guides" element={<Guides />} />

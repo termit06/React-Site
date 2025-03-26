@@ -27,10 +27,6 @@ export const getPageRoute = () => {
             path: '/guides'
         },
         {
-            namePage: 'Пчёлка',
-            path: '/bee'
-        },
-        {
             namePage: 'Массивы',
             path: '/mass'
         },
@@ -39,7 +35,7 @@ export const getPageRoute = () => {
             path: '/year'
         },
         {
-            namePage: 'Пчёлка1',
+            namePage: 'Пчёлка',
             path: '/web'
         }
     ]
